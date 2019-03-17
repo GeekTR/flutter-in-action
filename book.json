@@ -24,25 +24,22 @@
     "toggle-chapters",
     "prism",
     "donate",
-    "-highlight",
-    "favicon"
+    "-highlight"
   ],
   "pluginsConfig": {
+    "prism": {
+      "lang": {
+        "shell": "bash"
+      }
+    },
     "search-pro": {
       "cutWordLib": "nodejieba",
       "defineWord" : ["Gitbook Use"]
     },
-    "github": {
-      "url": "https://github.com/flutterchina"
-    },
     "donate": {
-      "wechat": "https://cdn.jsdelivr.net/gh/flutterchina/website@1.0/images/pay.jpg",
+      "wechat": "https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action@1.0.3/docs/imgs/pay.jpeg",
       "button": "赏",
       "wechatText": "微信打赏"
-    },
-    "favicon": {
-      "shortcut": "https://cdn.jsdelivr.net/gh/flutterchina/website@1.0/images/favicon.png",
-      "bookmark": "https://cdn.jsdelivr.net/gh/flutterchina/website@1.0/images/favicon.png"
     }
   }
 }
